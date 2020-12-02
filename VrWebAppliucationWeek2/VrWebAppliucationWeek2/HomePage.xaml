@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VrWebAppliucationWeek2.HomePage">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Next" Clicked="MenuItem_OnClicked"></ToolbarItem>
+        <ToolbarItem Text="Previous" Clicked="MenuItem2_OnClicked"></ToolbarItem>
+    </TabbedPage.ToolbarItems>           
+   
+    <local:ProfilePage Title="Profile"/>
+    <local:ListPage Title="List"/>
+    <local:MusicPage Title="Music"/>
+</TabbedPage>
